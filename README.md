@@ -1,4 +1,4 @@
-Windows Installer (PowerShell - Run As Administrator): $ProgressPreference = 'SilentlyContinue'; [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; iex ((New-Object System.Net.WebClient).DownloadString('https://github.com/wjadams17/Tailscale/releases/latest/download/TS.Automated.Install.AuthKey.ps1'))
+Windows Installer (PowerShell - Run as Administrator): $ProgressPreference = 'SilentlyContinue'; [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; iex ((New-Object System.Net.WebClient).DownloadString('https://github.com/wjadams17/Tailscale/releases/latest/download/TS.Automated.Install.AuthKey.ps1'))
 
 Linux Install: curl -sSL "https://github.com/wjadams17/Tailscale/releases/latest/download/TS.Automated.Install.AuthKey.sh" | bash
 
